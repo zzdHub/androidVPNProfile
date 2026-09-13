@@ -2,7 +2,7 @@
 cd /d "%~dp0"
 
 echo ===== Running autosPS1.ps1 =====
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "%~dp0autosPS1.ps1"
+"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy Bypass -File "%~dp0autosPS1.ps1"
 
 REM 检查上一步是否成功，失败就退出
 if %errorlevel% neq 0 (
@@ -10,7 +10,5 @@ if %errorlevel% neq 0 (
     pause
     exit /b 1
 )
-
-
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "%~dp0AutoUpGit.ps1"
+"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy Bypass -File "%~dp0AutoUpGit.ps1"
 pause
