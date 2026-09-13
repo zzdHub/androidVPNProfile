@@ -52,5 +52,5 @@ $direct = [PSCustomObject]@{
 
 $configJson.outbounds = @($select) +@($direct) + @($mainJson)
 
-$configJson | ConvertTo-Json -Depth 100 | Out-File  D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\subscribesmerged_formatted4.json -Encoding utf8
+$configJson | ConvertTo-Json -Depth 100 -Indent 4 | Out-File "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\subscribesmerged_formatted4.json" -Encoding utf8
 Write-Host "excute over!!!"
