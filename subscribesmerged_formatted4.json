@@ -62,7 +62,7 @@
         "com.theotino.chinadaily",
         "com.twitter.android"
       ],
-      "stack": "system"
+      "stack": "mixed"
     }
   ],
   "outbounds": [
