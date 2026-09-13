@@ -39,30 +39,33 @@
   },
   "inbounds": [
     {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 20122,
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": false
+    },
+    {
       "type": "tun",
       "tag": "tun-in",
-      "mtu": 1420,
-      "address": "172.18.0.1/30",
+      "interface_name": "",
+      "address": [
+        "172.18.0.1/30"
+      ],
+      "mtu": 0,
       "auto_route": true,
       "strict_route": true,
-      "include_package": [
-        "org.telegram.messenger",
-        "com.ichi2.anki",
-        "app.revanced.android.youtube",
-        "com.openai.chatgpt",
-        "com.android.vending",
-        "com.foxdebug.acodefree",
-        "com.android.chrome",
-        "com.google.android.gms",
-        "com.google.android.gsf",
-        "com.google.android.tts",
-        "app.revanced.android.gms",
-        "com.google.android.apps.translate",
-        "com.innologica.inoreader",
-        "com.theotino.chinadaily",
-        "com.twitter.android"
-      ],
-      "stack": "mixed"
+      "endpoint_independent_nat": false,
+      "stack": "mixed",
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 20122
+        }
+      }
     }
   ],
   "outbounds": [
