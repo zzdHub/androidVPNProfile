@@ -74,7 +74,7 @@
       "tag": "select",
       "outbounds": [
         "direct",
-        "剩余流量：76.72 GB",
+        "剩余流量：73.37 GB",
         "套餐到期：长期有效",
         "香港🇭🇰",
         "香港🇭🇰1-1电信优化",
@@ -97,7 +97,6 @@
         "美国🇺🇸4gpt",
         "越南🇻🇳1",
         "越南🇻🇳2",
-        "越南🇻🇳2-2电信优化",
         "韩国🇰🇷家宽直连1",
         "台湾🇹🇼原生直连1",
         "香港🇭🇰原生直连",
@@ -112,7 +111,7 @@
       "tag": "direct"
     },
     {
-      "tag": "剩余流量：76.72 GB",
+      "tag": "剩余流量：73.37 GB",
       "type": "anytls",
       "server": "wyy5.l8inn.com",
       "server_port": 39750,
@@ -384,18 +383,6 @@
       "tls": {
         "enabled": true,
         "server_name": "mpvideo.qpic.cn",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "越南🇻🇳2-2电信优化",
-      "type": "anytls",
-      "server": "wyy8.l8inn.com",
-      "server_port": 35774,
-      "password": "1410466f-26da-472a-b47f-518ea4756673",
-      "tls": {
-        "enabled": true,
-        "server_name": "ymzl.vyunyunnode.top",
         "insecure": true
       }
     },
