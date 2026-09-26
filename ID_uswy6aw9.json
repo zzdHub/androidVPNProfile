@@ -1,187 +1,81 @@
 [
   {
-    "tag": "🇨🇳台湾-住宅",
-    "type": "anytls",
-    "server": "tyhinetak.jiedddym.com",
-    "server_port": 30096,
-    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "tyhinetak.jiedddym.com",
-      "insecure": true
-    }
-  },
-  {
-    "tag": "🇨🇳台湾-住宅02",
-    "type": "vless",
-    "server": "ttszhrmghgdssbkqf.cfooov.xyz",
-    "server_port": 42241,
-    "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "www.apple.com",
-      "insecure": false,
-      "reality": {
-        "enabled": true,
-        "public_key": "lFZuIsmEomT8zwJ2f7wTI-C87oA78R9amDVHgemYmmQ",
-        "short_id": "1cb574e4d5d8"
-      },
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "flow": "xtls-rprx-vision"
-  },
-  {
-    "tag": "🇺🇸美国-住宅",
-    "type": "anytls",
-    "server": "akmgzz.jiedddym.com",
-    "server_port": 30296,
-    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "aausa.coffee1.xyz",
-      "insecure": true
-    }
-  },
-  {
-    "tag": "🇨🇳香港原生htk高速01",
-    "type": "vless",
-    "server": "zxdnlwrrqwgonmchnxmxsadn.jiedddym.com",
-    "server_port": 48667,
-    "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "www.lamer.com.hk",
-      "insecure": false,
-      "reality": {
-        "enabled": true,
-        "public_key": "-YbavnucWqkZSykRnRzCh2Dzdzt6COoIdZiam3qL1Bs",
-        "short_id": "51724ac85b619b64"
-      },
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "flow": "xtls-rprx-vision"
-  },
-  {
-    "tag": "🇨🇳香港原生htk高速02",
-    "type": "vless",
-    "server": "dnlmchnmzhmqwah.cfooov.xyz",
-    "server_port": 30198,
-    "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "www.apple.com",
-      "insecure": false,
-      "reality": {
-        "enabled": true,
-        "public_key": "6dy7ISNOWfupnmbmQ2kMVGDBoD9NjNbrbsh8IltocSQ",
-        "short_id": "dcb9c81d1094"
-      },
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "flow": "xtls-rprx-vision"
-  },
-  {
-    "tag": "🇨🇳香港原生htk高速03",
-    "type": "vless",
-    "server": "wznyydzdbwylblwwzg.jiedddym.com",
-    "server_port": 56623,
-    "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "www.apple.com",
-      "insecure": false,
-      "reality": {
-        "enabled": true,
-        "public_key": "TYkjXn20gg3UG3buVpBHrU9pO1YgUKLgi5BAop0KsRo",
-        "short_id": "8f21666036cb6b57"
-      },
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "flow": "xtls-rprx-vision"
-  },
-  {
-    "tag": "🇨🇳香港hkb家宽01",
-    "type": "vless",
-    "server": "wdrjxmddsndmcfxsyglm.jiedddym.com",
-    "server_port": 27727,
-    "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "www.apple.com",
-      "insecure": false,
-      "reality": {
-        "enabled": true,
-        "public_key": "8qqIUF4oUqIwlvsAnZyoHlOYh9Xt0RcfiJOEkp-GFgo",
-        "short_id": "5f4791af61074e"
-      },
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "flow": "xtls-rprx-vision"
-  },
-  {
     "tag": "🇨🇳香港hkb家宽02",
-    "type": "vless",
-    "server": "nylgwlaqqnzdbgwlhmqdbxxn.cfooov.xyz",
-    "server_port": 37566,
-    "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+    "type": "anytls",
+    "server": "yydsbgwoqqnadlao.jiedddym.com",
+    "server_port": 58823,
+    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
-      "server_name": "www.cloudflare.com",
-      "insecure": false,
-      "reality": {
-        "enabled": true,
-        "public_key": "GfJKRketNrB2mqi_7lEpMtQyFrkSWixzS4w2c91Eq3I",
-        "short_id": "783e7af32f542ba5"
-      },
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "flow": "xtls-rprx-vision"
+      "server_name": "yydsbgwoqqnadlao.jiedddym.com",
+      "insecure": true
+    }
   },
   {
-    "tag": "🇨🇳香港-流媒体高速",
-    "type": "vless",
-    "server": "njlyzykwzfbbfg.cfooov.xyz",
-    "server_port": 53321,
-    "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+    "tag": "🇸🇬新加坡-流媒体02",
+    "type": "anytls",
+    "server": "gglhhcdnshl.cfooov.xyz",
+    "server_port": 57663,
+    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
-      "server_name": "www.cloudflare.com",
-      "insecure": false,
-      "reality": {
-        "enabled": true,
-        "public_key": "akoIsGdgIBBh0qstAOeRYrZrxuYQPUEmR0x6Tb4CFDQ",
-        "short_id": "e0f6d2b0e06d61"
-      },
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "flow": "xtls-rprx-vision"
+      "server_name": "gglhhcdnshl.cfooov.xyz",
+      "insecure": true
+    }
+  },
+  {
+    "tag": "🇸🇬新加坡-流媒体03",
+    "type": "anytls",
+    "server": "xjpdnlmchzswnalm.jiedddym.com",
+    "server_port": 47731,
+    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+    "tls": {
+      "enabled": true,
+      "server_name": "xjpdnlmchzswnalm.jiedddym.com",
+      "insecure": false
+    }
+  },
+  {
+    "tag": "🇯🇵日本-流媒体03",
+    "type": "anytls",
+    "server": "sufyiusasdaqwerffs.jiedddym.com",
+    "server_port": 29811,
+    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+    "tls": {
+      "enabled": true,
+      "server_name": "sufyiusasdaqwerffs.jiedddym.com",
+      "insecure": false
+    }
+  },
+  {
+    "tag": "🇯🇵日本-流媒体01",
+    "type": "anytls",
+    "server": "bbqqnbgwkymzyhgsrd.jiedddym.com",
+    "server_port": 37188,
+    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+    "tls": {
+      "enabled": true,
+      "server_name": "bbqqnbgwkymzyhgsrd.jiedddym.com",
+      "insecure": false
+    }
+  },
+  {
+    "tag": "🇯🇵日本-流媒体02",
+    "type": "anytls",
+    "server": "smdkyqrmfkcwdnlmyyds.jiedddym.com",
+    "server_port": 49113,
+    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+    "tls": {
+      "enabled": true,
+      "server_name": "smdkyqrmfkcwdnlmyyds.jiedddym.com",
+      "insecure": false
+    }
   },
   {
     "tag": "🇨🇳香港-i-Cable（专线）01",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 41341,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 35464,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -202,8 +96,8 @@
   {
     "tag": "🇨🇳香港-i-Cable-（专线）02",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 43142,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 52934,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -224,8 +118,8 @@
   {
     "tag": "🇭🇰香港（专线）01",
     "type": "vless",
-    "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-    "server_port": 45592,
+    "server": "jpjpyydsnmbchznm.cfooov.xyz",
+    "server_port": 25531,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -246,8 +140,8 @@
   {
     "tag": "🇭🇰香港（专线）02",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 32015,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 51421,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -268,8 +162,8 @@
   {
     "tag": "🇭🇰香港（专线）03",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 36575,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 15682,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -290,8 +184,8 @@
   {
     "tag": "🇻🇳越南-原生（专线）01",
     "type": "vless",
-    "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-    "server_port": 48737,
+    "server": "jpjpyydsnmbchznm.cfooov.xyz",
+    "server_port": 55028,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -312,8 +206,8 @@
   {
     "tag": "🇻🇳越南-原生（专线）02",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 14400,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 34030,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -334,8 +228,8 @@
   {
     "tag": "🇻🇳越南-原生（专线）03",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 19643,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 62990,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -356,8 +250,8 @@
   {
     "tag": "🇸🇬新加坡-（专线）01",
     "type": "vless",
-    "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-    "server_port": 48948,
+    "server": "jpjpyydsnmbchznm.cfooov.xyz",
+    "server_port": 10958,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -378,8 +272,8 @@
   {
     "tag": "🇸🇬新加坡-（专线）02",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 45081,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 38835,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -400,8 +294,8 @@
   {
     "tag": "🇸🇬新加坡-（专线）03",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 39652,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 19131,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -420,32 +314,10 @@
     "flow": "xtls-rprx-vision"
   },
   {
-    "tag": "🇯🇵日本-流媒体02",
-    "type": "vless",
-    "server": "njsswzmdqdaaa.cfooov.xyz",
-    "server_port": 49778,
-    "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "www.apple.com",
-      "insecure": false,
-      "reality": {
-        "enabled": true,
-        "public_key": "NLvmZS0_lVMvFtZSoEtCRZZka3zgj-303uX95b33kEY",
-        "short_id": "57ce6b89958950f8"
-      },
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "flow": "xtls-rprx-vision"
-  },
-  {
     "tag": "🇯🇵日本-原生（专线）01",
     "type": "vless",
-    "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-    "server_port": 21844,
+    "server": "jpjpyydsnmbchznm.cfooov.xyz",
+    "server_port": 26620,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -466,8 +338,8 @@
   {
     "tag": "🇯🇵日本-原生（专线）02",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 50500,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 47655,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -488,8 +360,8 @@
   {
     "tag": "🇯🇵日本-原生（专线）03",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 65057,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 45370,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -510,8 +382,8 @@
   {
     "tag": "🇰🇷韩国sg-住宅01",
     "type": "vless",
-    "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-    "server_port": 48179,
+    "server": "jpjpyydsnmbchznm.cfooov.xyz",
+    "server_port": 56318,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -532,8 +404,8 @@
   {
     "tag": "🇰🇷韩国sg-住宅02",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 61205,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 38937,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -554,8 +426,8 @@
   {
     "tag": "🇰🇷韩国sg-住宅03",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 62638,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 58730,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -598,8 +470,8 @@
   {
     "tag": "🇲🇾马来西亚-原生02",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 60507,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 30100,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -620,8 +492,8 @@
   {
     "tag": "🇲🇾马来西亚-原生03",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 31378,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 40342,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -642,8 +514,8 @@
   {
     "tag": "🇩🇪德国（专线）01",
     "type": "vless",
-    "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-    "server_port": 51493,
+    "server": "jpjpyydsnmbchznm.cfooov.xyz",
+    "server_port": 22697,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -664,8 +536,8 @@
   {
     "tag": "🇩🇪德国（专线）02",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 17594,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 61739,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -686,8 +558,8 @@
   {
     "tag": "🇩🇪德国（专线）03",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 57877,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 38341,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -708,8 +580,8 @@
   {
     "tag": "🇬🇧英国-住宅（专线）01",
     "type": "vless",
-    "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-    "server_port": 63793,
+    "server": "jpjpyydsnmbchznm.cfooov.xyz",
+    "server_port": 35001,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -730,8 +602,8 @@
   {
     "tag": "🇬🇧英国-住宅（专线）02",
     "type": "vless",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 64823,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 37910,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -752,8 +624,8 @@
   {
     "tag": "🇬🇧英国-住宅（专线）03",
     "type": "vless",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 40714,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 19106,
     "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
@@ -772,34 +644,6 @@
     "flow": "xtls-rprx-vision"
   },
   {
-    "tag": "🇺🇸美国住宅-hy2",
-    "type": "hysteria2",
-    "server": "akmgzz.jiedddym.com",
-    "server_port": 49490,
-    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "akmgzz.jiedddym.com",
-      "insecure": true
-    },
-    "up_mbps": 5000,
-    "down_mbps": 5000
-  },
-  {
-    "tag": "🇺🇸美国迈阿密-hy2",
-    "type": "hysteria2",
-    "server": "mgmam.jiedddym.com",
-    "server_port": 49490,
-    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "mgmam.jiedddym.com",
-      "insecure": true
-    },
-    "up_mbps": 5000,
-    "down_mbps": 5000
-  },
-  {
     "tag": "🇺🇸美国拉斯维加斯-hy2",
     "type": "hysteria2",
     "server": "mglswjs.jiedddym.com",
@@ -814,70 +658,42 @@
     "down_mbps": 5000
   },
   {
-    "tag": "🇺🇸美国纽约-hy2",
+    "tag": "🇯🇵日本流媒体-hy2",
     "type": "hysteria2",
-    "server": "qlgmgnynb.jiedddym.com",
-    "server_port": 49490,
+    "server": "yydshnbdnlwch.cfooov.xyz",
+    "server_port": 50756,
     "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
-      "server_name": "qlgmgnynb.jiedddym.com",
+      "server_name": "yydshnbdnlwch.cfooov.xyz",
       "insecure": true
     },
     "up_mbps": 5000,
     "down_mbps": 5000
   },
   {
-    "tag": "🇺🇸美国拉斯维加斯2-hy2",
+    "tag": "🇯🇵日本流媒体-hy2a",
     "type": "hysteria2",
-    "server": "mglswjsjjjjs.jiedddym.com",
-    "server_port": 49490,
+    "server": "jpjpyydsnmbchznm.cfooov.xyz",
+    "server_port": 21465,
     "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
-      "server_name": "mglswjsjjjjs.jiedddym.com",
+      "server_name": "jpjpyydsnmbchznm.cfooov.xyz",
       "insecure": true
     },
     "up_mbps": 5000,
     "down_mbps": 5000
   },
   {
-    "tag": "🇯🇵日本流媒体测试-hy2",
+    "tag": "🇯🇵日本流媒体-hy2b",
     "type": "hysteria2",
-    "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-    "server_port": 24521,
+    "server": "scsgxjpyydshhw.jiedddym.com",
+    "server_port": 26739,
     "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
     "tls": {
       "enabled": true,
-      "server_name": "clhkzzzdbgwxxndnlm.cfooov.xyz",
-      "insecure": true
-    },
-    "up_mbps": 5000,
-    "down_mbps": 5000
-  },
-  {
-    "tag": "🇯🇵日本流媒体测试-hy2a",
-    "type": "hysteria2",
-    "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-    "server_port": 43789,
-    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
-      "insecure": true
-    },
-    "up_mbps": 5000,
-    "down_mbps": 5000
-  },
-  {
-    "tag": "🇯🇵日本流媒体测试-hy2b",
-    "type": "hysteria2",
-    "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
-    "server_port": 34755,
-    "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-    "tls": {
-      "enabled": true,
-      "server_name": "sczznmbbbzgwlwzdhsql.jiedddym.com",
+      "server_name": "scsgxjpyydshhw.jiedddym.com",
       "insecure": true
     },
     "up_mbps": 5000,

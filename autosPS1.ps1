@@ -11,28 +11,35 @@ $PSDefaultParameterValues['Get-Content:Encoding'] = 'utf8'
 # 配置模板
 $mainconfig= "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\mainconfig.json"
 
-$testaaa = "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\ID_nin5mo9a.json"
+$data1 = "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\ID_nin5mo9a.json"
+
+$data2 = "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\ID_uswy6aw9.json"
 try {
     # 读取 JSON 内容
-    Write-Host "get the configuration file templates ...."
-    $mainJsonRaw = [System.IO.File]::ReadAllText($testaaa, [System.Text.Encoding]::UTF8)
-    $configRaw = [System.IO.File]::ReadAllText($mainconfig, [System.Text.Encoding]::UTF8)
+    Write-Host "get the configuration file template -1 ...."
+    $mainJsonRaw = [System.IO.File]::ReadAllText($data1, [System.Text.Encoding]::UTF8)
+    $configRaw1 = [System.IO.File]::ReadAllText($mainconfig, [System.Text.Encoding]::UTF8)
+
+     Write-Host "get the configuration file template -2 ...."
+    $mainJsonRaw2 = [System.IO.File]::ReadAllText($data2, [System.Text.Encoding]::UTF8)
+    $configRaw2 = [System.IO.File]::ReadAllText($mainconfig, [System.Text.Encoding]::UTF8)
 }
 catch {
     Write-Host "failed to read the configuration file: $($_.Exception.Message)"
 }
 try {
     # 转换为 JSON 对象
-    $mainJson = $mainJsonRaw | ConvertFrom-Json -ErrorAction Stop
-    $configJson = $configRaw | ConvertFrom-Json -ErrorAction Stop
+    $mainJson1 = $mainJsonRaw | ConvertFrom-Json -ErrorAction Stop
+    $configJson1 = $configRaw1 | ConvertFrom-Json -ErrorAction Stop
+    #转换为 JSON 对象  2
+    $mainJson2 = $mainJsonRaw2 | ConvertFrom-Json -ErrorAction Stop
+    $configJson2 = $configRaw2| ConvertFrom-Json -ErrorAction Stop
 }
 catch {
     Write-Host "failed to parse the file. please check try agin : $($_.Exception.Message)"
 }
 
-Write-Host "printf json"$mainJson
-
-$subsnode = $mainJson | Where-Object{
+$subsnode1 = $mainJson | Where-Object{
      $_.tag
 }| Select-Object -ExpandProperty tag
 
@@ -41,7 +48,7 @@ $subsnode = $mainJson | Where-Object{
 $select = [PSCustomObject]@{
     type = "selector"
     tag = "select"
-    outbounds = @("direct") + @($subsnode)
+    outbounds = @("direct") + @($subsnode1)
     interrupt_exist_connections = $true
 }
 
@@ -50,7 +57,32 @@ $direct = [PSCustomObject]@{
     tag = "direct"
 }
 
-$configJson.outbounds = @($select) +@($direct) + @($mainJson)
+$configJson1.outbounds = @($select) +@($direct) + @($mainJson1)
 
-$configJson | ConvertTo-Json -Depth 100  | Out-File "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\subscribesmerged_formatted4.json" -Encoding utf8
-Write-Host "excute over!!!"
+$configJson1 | ConvertTo-Json -Depth 100  | Out-File "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\subscribesmerged_formatted4.json" -Encoding utf8
+Write-Host "excute over -1"
+
+
+# sub2 ==================================
+$subsnode2 = $mainJson2 | Where-Object{
+     $_.tag
+}| Select-Object -ExpandProperty tag
+
+# 添加 selector
+
+$select = [PSCustomObject]@{
+    type = "selector"
+    tag = "select"
+    outbounds = @("direct") + @($subsnode2)
+    interrupt_exist_connections = $true
+}
+
+$direct = [PSCustomObject]@{
+    type = "direct"
+    tag = "direct"
+}
+
+$configJson2.outbounds = @($select) +@($direct) + @($mainJson2)
+
+$configJson2 | ConvertTo-Json -Depth 100  | Out-File "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\subscribesmerged_formatted5.json" -Encoding utf8
+Write-Host "excute over -2"
