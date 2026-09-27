@@ -73,16 +73,7 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "澳大利亚(AU)",
-        "其他地区",
-        "香港(HK)",
-        "美国(US)",
-        "德国(DE)",
-        "韩国(KR)",
-        "日本(JP)",
-        "新加坡(SG)",
-        "台湾(TW)",
-        "direct"
+        
       ],
       "interrupt_exist_connections": true
     },

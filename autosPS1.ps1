@@ -39,13 +39,15 @@ catch {
     Write-Host "failed to parse the file. please check try agin : $($_.Exception.Message)"
 }
 
-$subsnode1 = $mainJson | Where-Object{
+$subsnode1 = $mainJson1 | Where-Object{
      $_.tag
 }| Select-Object -ExpandProperty tag
 
 # 添加 selector
 
-$select = [PSCustomObject]@{
+
+
+$select1 = [PSCustomObject]@{
     type = "selector"
     tag = "select"
     outbounds = @("direct") + @($subsnode1)
@@ -57,7 +59,7 @@ $direct = [PSCustomObject]@{
     tag = "direct"
 }
 
-$configJson1.outbounds = @($select) +@($direct) + @($mainJson1)
+$configJson1.outbounds = @($select1) +@($direct) + @($mainJson1)
 
 $configJson1 | ConvertTo-Json -Depth 100  | Out-File "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\subscribesmerged_formatted4.json" -Encoding utf8
 Write-Host "excute over -1"
@@ -70,7 +72,7 @@ $subsnode2 = $mainJson2 | Where-Object{
 
 # 添加 selector
 
-$select = [PSCustomObject]@{
+$select2= [PSCustomObject]@{
     type = "selector"
     tag = "select"
     outbounds = @("direct") + @($subsnode2)
@@ -82,7 +84,7 @@ $direct = [PSCustomObject]@{
     tag = "direct"
 }
 
-$configJson2.outbounds = @($select) +@($direct) + @($mainJson2)
+$configJson2.outbounds = @($select2) +@($direct) + @($mainJson2)
 
 $configJson2 | ConvertTo-Json -Depth 100  | Out-File "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\subscribesmerged_formatted5.json" -Encoding utf8
 Write-Host "excute over -2"
