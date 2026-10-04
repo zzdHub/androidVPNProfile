@@ -74,24 +74,26 @@
       "tag": "select",
       "outbounds": [
         "direct",
-        "🇨🇳香港hkb家宽01",
+        "美国拉斯维加斯-原生",
+        "美国纽约-原生",
+        "美国拉斯维加斯-原生02",
         "🇯🇵日本-流媒体02",
         "🇨🇳香港-i-Cable02",
         "🇨🇳香港-i-Cable01",
+        "🇨🇳香港-i-Cable03",
         "🇸🇬新加坡-媒体流02",
         "🇸🇬新加坡-媒体流01",
+        "🇸🇬新加坡-媒体流03",
         "🇯🇵日本-原生01",
         "🇯🇵日本-原生02",
+        "🇯🇵日本-原生03",
         "🇻🇳越南-原生01",
         "🇻🇳越南-原生02",
+        "🇻🇳越南-原生03",
         "🇭🇰香港-流媒体01",
         "🇭🇰香港-流媒体02",
-        "🇻🇳越南-原生（专线）02",
-        "🇩🇪德国（专线）01",
-        "🇩🇪德国（专线）02",
-        "🇩🇪德国（专线）03",
-        "🇬🇧英国-住宅（专线）01",
-        "🇬🇧英国-住宅（专线）03",
+        "🇭🇰香港-流媒体03",
+        "🇺🇸美国迈阿密-原生",
         "🇯🇵日本流媒体-hy2"
       ],
       "interrupt_exist_connections": true
@@ -101,26 +103,52 @@
       "tag": "direct"
     },
     {
-      "tag": "🇨🇳香港hkb家宽01",
-      "type": "vless",
-      "server": "ttxbgwxhbhgthlqqnzg.ffsssls.buzz",
-      "server_port": 35531,
+      "tag": "美国拉斯维加斯-原生",
+      "type": "vmess",
+      "server": "mlhwojdjd.cfooov.xyz",
+      "server_port": 8080,
       "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "g_d-IreZ0FGaavFxrCOsKhv0FDvo1--fNT-JG3Ipgz8",
-          "short_id": "d7a10c4a4df8"
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "mglswjsb.cfooov.xyz"
         },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision"
+        "path": "/kck"
+      }
+    },
+    {
+      "tag": "美国纽约-原生",
+      "type": "vmess",
+      "server": "mlhwojdjd.cfooov.xyz",
+      "server_port": 8080,
+      "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "mgnyysyydsqqnbgw.cfooov.xyz"
+        },
+        "path": "/kck"
+      }
+    },
+    {
+      "tag": "美国拉斯维加斯-原生02",
+      "type": "vmess",
+      "server": "mlhwojdjd.cfooov.xyz",
+      "server_port": 8080,
+      "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "amglswjshhw.cfooov.xyz"
+        },
+        "path": "/kck"
+      }
     },
     {
       "tag": "🇯🇵日本-流媒体02",
@@ -159,6 +187,18 @@
       }
     },
     {
+      "tag": "🇨🇳香港-i-Cable03",
+      "type": "anytls",
+      "server": "wqqnqqlxybdnlm.jiedddym.com",
+      "server_port": 49627,
+      "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+      "tls": {
+        "enabled": true,
+        "server_name": "yydsxgjkhkbscwl.jiedddym.com",
+        "insecure": false
+      }
+    },
+    {
       "tag": "🇸🇬新加坡-媒体流02",
       "type": "anytls",
       "server": "qqnbgwlxxna.jiedddym.com",
@@ -175,6 +215,18 @@
       "type": "anytls",
       "server": "mgwlxxngledlqqn.jiedddym.com",
       "server_port": 38508,
+      "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+      "tls": {
+        "enabled": true,
+        "server_name": "xjpjus.jiedddym.com",
+        "insecure": false
+      }
+    },
+    {
+      "tag": "🇸🇬新加坡-媒体流03",
+      "type": "anytls",
+      "server": "wqqnqqlxybdnlm.jiedddym.com",
+      "server_port": 64409,
       "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
       "tls": {
         "enabled": true,
@@ -207,6 +259,18 @@
       }
     },
     {
+      "tag": "🇯🇵日本-原生03",
+      "type": "anytls",
+      "server": "wqqnqqlxybdnlm.jiedddym.com",
+      "server_port": 18140,
+      "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+      "tls": {
+        "enabled": true,
+        "server_name": "rbyhss.jiedddym.com",
+        "insecure": false
+      }
+    },
+    {
       "tag": "🇻🇳越南-原生01",
       "type": "anytls",
       "server": "mgwlxxngledlqqn.jiedddym.com",
@@ -223,6 +287,18 @@
       "type": "anytls",
       "server": "qqnbgwlxxna.jiedddym.com",
       "server_port": 62990,
+      "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+      "tls": {
+        "enabled": true,
+        "server_name": "ynmzssbhzmsjd.jiedddym.com",
+        "insecure": false
+      }
+    },
+    {
+      "tag": "🇻🇳越南-原生03",
+      "type": "anytls",
+      "server": "wqqnqqlxybdnlm.jiedddym.com",
+      "server_port": 49237,
       "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
       "tls": {
         "enabled": true,
@@ -255,136 +331,30 @@
       }
     },
     {
-      "tag": "🇻🇳越南-原生（专线）02",
-      "type": "vless",
-      "server": "yydshnbdnlwch.cfooov.xyz",
-      "server_port": 34030,
-      "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+      "tag": "🇭🇰香港-流媒体03",
+      "type": "anytls",
+      "server": "wqqnqqlxybdnlm.jiedddym.com",
+      "server_port": 42217,
+      "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
       "tls": {
         "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "GnLh9Cc0jj9BMW81u6stEYKe1xu6pf8DDpXHI9AmvFk",
-          "short_id": "545525c503fd5b"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision"
+        "server_name": "akahkakhknmbzqwcnpy.jiedddym.com",
+        "insecure": false
+      }
     },
     {
-      "tag": "🇩🇪德国（专线）01",
-      "type": "vless",
-      "server": "jpjpyydsnmbchznm.cfooov.xyz",
-      "server_port": 54353,
-      "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
+      "tag": "🇺🇸美国迈阿密-原生",
+      "type": "hysteria2",
+      "server": "mgwlxxngledlqqn.jiedddym.com",
+      "server_port": 39869,
+      "password": "24c32071-2324-4d01-a248-00ecd1ddf0af",
       "tls": {
         "enabled": true,
-        "server_name": "www.lamer.com.hk",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "9wkREVS6QxqFyds7LzwRsS546sEPYykf9IFQDoCzmjA",
-          "short_id": "383e976fcf298029"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "mgwlxxngledlqqn.jiedddym.com",
+        "insecure": false
       },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇩🇪德国（专线）02",
-      "type": "vless",
-      "server": "yydshnbdnlwch.cfooov.xyz",
-      "server_port": 32132,
-      "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.lamer.com.hk",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "9wkREVS6QxqFyds7LzwRsS546sEPYykf9IFQDoCzmjA",
-          "short_id": "383e976fcf298029"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇩🇪德国（专线）03",
-      "type": "vless",
-      "server": "scsgxjpyydshhw.jiedddym.com",
-      "server_port": 21312,
-      "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.lamer.com.hk",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "9wkREVS6QxqFyds7LzwRsS546sEPYykf9IFQDoCzmjA",
-          "short_id": "383e976fcf298029"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇬🇧英国-住宅（专线）01",
-      "type": "vless",
-      "server": "jpjpyydsnmbchznm.cfooov.xyz",
-      "server_port": 11111,
-      "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.lamer.com.hk",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "1h6RALL3XxV1ycc0Fs-9UWoxscumAUYkakszZMOrz1Q",
-          "short_id": "d3a6bfdaa8c732"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇬🇧英国-住宅（专线）03",
-      "type": "vless",
-      "server": "scsgxjpyydshhw.jiedddym.com",
-      "server_port": 11111,
-      "uuid": "24c32071-2324-4d01-a248-00ecd1ddf0af",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.lamer.com.hk",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "1h6RALL3XxV1ycc0Fs-9UWoxscumAUYkakszZMOrz1Q",
-          "short_id": "d3a6bfdaa8c732"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "flow": "xtls-rprx-vision"
+      "up_mbps": 5000,
+      "down_mbps": 5000
     },
     {
       "tag": "🇯🇵日本流媒体-hy2",
