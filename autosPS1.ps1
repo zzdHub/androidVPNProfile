@@ -13,7 +13,7 @@ $mainconfig= "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\sub
 
 $data1 = "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\ID_nin5mo9a.json"
 
-$data2 = "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\ID_uswy6aw9.json"
+$data2 = "D:\Software\VPN\Singbox_Gui\GUI.for.SingBox-windows-amd64\data\subscribes\ID_deb4gbpu.json"
 try {
     # 读取 JSON 内容
     Write-Host "get the configuration file template -1 ...."
