@@ -98,7 +98,6 @@
         "🇸🇬新加坡-流媒体2hy2",
         "🇺🇸美国-拉斯维加斯原生hy2",
         "🇺🇸美国-纽约原生hy2",
-        "🇺🇸美国-拉斯维加斯hy2b",
         "🇯🇵日本流媒体-hy2"
       ],
       "interrupt_exist_connections": true
@@ -431,20 +430,6 @@
         "enabled": true,
         "server_name": "cnmfffnmbggggg.cfooov.xyz",
         "insecure": true
-      },
-      "up_mbps": 5000,
-      "down_mbps": 5000
-    },
-    {
-      "tag": "🇺🇸美国-拉斯维加斯hy2b",
-      "type": "hysteria2",
-      "server": "nmbncslqfffhrrhmcnm.cfooov.xyz",
-      "server_port": 443,
-      "password": "d9041704-e3e6-4b48-b54e-a7fc33a693fc",
-      "tls": {
-        "enabled": true,
-        "server_name": "nmbncslqfffhrrhmcnm.cfooov.xyz",
-        "insecure": false
       },
       "up_mbps": 5000,
       "down_mbps": 5000
