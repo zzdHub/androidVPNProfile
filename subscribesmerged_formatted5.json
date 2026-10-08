@@ -77,6 +77,7 @@
         "🇨🇳台湾-住宅2",
         "🇭🇰香港-hkb",
         "🇰🇷韩国-原生优化",
+        "🇰🇷韩国-住宅",
         "🇯🇵日本-流媒体",
         "🇨🇳香港-i-Cable02",
         "🇨🇳香港-i-Cable01",
@@ -164,6 +165,28 @@
           "enabled": true,
           "public_key": "EYL34fDvfu5asb5EUlFQ4ng2mHHS9hCq3Rkywzuohhs",
           "short_id": "dd7b46dc2e706e4b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇰🇷韩国-住宅",
+      "type": "vless",
+      "server": "hgsgzzjdyyds.jiedddym.com",
+      "server_port": 443,
+      "uuid": "d9041704-e3e6-4b48-b54e-a7fc33a693fc",
+      "tls": {
+        "enabled": true,
+        "server_name": "fastcdn.hoyoverse.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "NR2BOSsxGYLtQCY361H3MjbBbDXGdm1nr3l32WeXjSE",
+          "short_id": "4fbdc9a6fcbb95"
         },
         "utls": {
           "enabled": true,
