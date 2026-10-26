@@ -74,7 +74,7 @@
       "tag": "select",
       "outbounds": [
         "direct",
-        "剩余流量：47.83 GB",
+        "剩余流量：47.82 GB",
         "套餐到期：长期有效",
         "香港🇭🇰",
         "香港🇭🇰1-1电信优化",
@@ -111,7 +111,7 @@
       "tag": "direct"
     },
     {
-      "tag": "剩余流量：47.83 GB",
+      "tag": "剩余流量：47.82 GB",
       "type": "anytls",
       "server": "wwyy5.zzzyde.xyz",
       "server_port": 39750,
