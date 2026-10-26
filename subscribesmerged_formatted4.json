@@ -74,7 +74,7 @@
       "tag": "select",
       "outbounds": [
         "direct",
-        "剩余流量：57.61 GB",
+        "剩余流量：47.83 GB",
         "套餐到期：长期有效",
         "香港🇭🇰",
         "香港🇭🇰1-1电信优化",
@@ -111,9 +111,9 @@
       "tag": "direct"
     },
     {
-      "tag": "剩余流量：57.61 GB",
+      "tag": "剩余流量：47.83 GB",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 39750,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -125,7 +125,7 @@
     {
       "tag": "套餐到期：长期有效",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 39750,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -137,7 +137,7 @@
     {
       "tag": "香港🇭🇰",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 39750,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -149,7 +149,7 @@
     {
       "tag": "香港🇭🇰1-1电信优化",
       "type": "anytls",
-      "server": "wyy8.l8inn.com",
+      "server": "wwyy8.zzzyde.xyz",
       "server_port": 29756,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -173,7 +173,7 @@
     {
       "tag": "香港🇭🇰2-2电信优化",
       "type": "anytls",
-      "server": "wyy8.l8inn.com",
+      "server": "wwyy8.zzzyde.xyz",
       "server_port": 19752,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -197,7 +197,7 @@
     {
       "tag": "新加坡🇸🇬1-1电信优化",
       "type": "anytls",
-      "server": "wyy8.l8inn.com",
+      "server": "wwyy8.zzzyde.xyz",
       "server_port": 26631,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -209,7 +209,7 @@
     {
       "tag": "新加坡🇸🇬2-2电信优化",
       "type": "anytls",
-      "server": "wyy8.l8inn.com",
+      "server": "wwyy8.zzzyde.xyz",
       "server_port": 26639,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -221,7 +221,7 @@
     {
       "tag": "新加坡🇸🇬3解锁ai",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 32661,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -233,7 +233,7 @@
     {
       "tag": "日本🇯🇵1",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 26633,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -245,7 +245,7 @@
     {
       "tag": "日本🇯🇵1-1电信优化",
       "type": "anytls",
-      "server": "wyy8.l8inn.com",
+      "server": "wwyy8.zzzyde.xyz",
       "server_port": 26635,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -269,7 +269,7 @@
     {
       "tag": "台湾🇹🇼1play下载1-1",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 35814,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -281,7 +281,7 @@
     {
       "tag": "台湾🇹🇼2-2电信优化",
       "type": "anytls",
-      "server": "wyy8.l8inn.com",
+      "server": "wwyy8.zzzyde.xyz",
       "server_port": 35769,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -293,7 +293,7 @@
     {
       "tag": "美国🇺🇸1gpt",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 35790,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -305,7 +305,7 @@
     {
       "tag": "美国🇺🇸2gpt",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 35796,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -317,7 +317,7 @@
     {
       "tag": "美国🇺🇸2-2电信优化",
       "type": "anytls",
-      "server": "wyy8.l8inn.com",
+      "server": "wwyy8.zzzyde.xyz",
       "server_port": 35797,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -329,7 +329,7 @@
     {
       "tag": "美国🇺🇸3gpt",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 35791,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -341,7 +341,7 @@
     {
       "tag": "美国🇺🇸3-3电信优化",
       "type": "anytls",
-      "server": "wyy8.l8inn.com",
+      "server": "wwyy8.zzzyde.xyz",
       "server_port": 35792,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -353,7 +353,7 @@
     {
       "tag": "美国🇺🇸4gpt",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 35698,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -365,7 +365,7 @@
     {
       "tag": "越南🇻🇳1",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 35771,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -377,7 +377,7 @@
     {
       "tag": "越南🇻🇳2",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 35773,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -389,7 +389,7 @@
     {
       "tag": "韩国🇰🇷家宽直连1",
       "type": "anytls",
-      "server": "wyy5.l8inn.com",
+      "server": "wwyy5.zzzyde.xyz",
       "server_port": 49822,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
