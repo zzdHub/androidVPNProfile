@@ -74,7 +74,7 @@
       "tag": "select",
       "outbounds": [
         "direct",
-        "剩余流量：43.99 GB",
+        "剩余流量：33.4 GB",
         "套餐到期：长期有效",
         "香港🇭🇰",
         "香港🇭🇰1-1电信优化",
@@ -111,7 +111,7 @@
       "tag": "direct"
     },
     {
-      "tag": "剩余流量：43.99 GB",
+      "tag": "剩余流量：33.4 GB",
       "type": "anytls",
       "server": "wyy5.zzzyde.xyz",
       "server_port": 39750,
@@ -161,7 +161,7 @@
     {
       "tag": "香港🇭🇰2",
       "type": "anytls",
-      "server": "xiaoqi.zzzyde.xyz",
+      "server": "ljxjp.l8inn.com",
       "server_port": 19751,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -185,7 +185,7 @@
     {
       "tag": "新加坡🇸🇬1解锁",
       "type": "anytls",
-      "server": "xiaoqi.zzzyde.xyz",
+      "server": "ljxjp.l8inn.com",
       "server_port": 26630,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -257,7 +257,7 @@
     {
       "tag": "日本🇯🇵2",
       "type": "anytls",
-      "server": "xiaoqi.zzzyde.xyz",
+      "server": "ljxjp.l8inn.com",
       "server_port": 35710,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -377,7 +377,7 @@
     {
       "tag": "越南🇻🇳2",
       "type": "anytls",
-      "server": "wyy5.zzzyde.xyz",
+      "server": "ljxjp.l8inn.com",
       "server_port": 35773,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -401,7 +401,7 @@
     {
       "tag": "台湾🇹🇼原生直连1",
       "type": "anytls",
-      "server": "yytw2.jdsyym.xyz",
+      "server": "wyy5.zzzyde.xyz",
       "server_port": 56610,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
@@ -419,14 +419,14 @@
       "tls": {
         "enabled": true,
         "server_name": "hkzl4.vyunyunnode.top",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "tag": "香港🇭🇰2原生直连",
       "type": "hysteria2",
       "server": "syhkt.hhwyy.xyz",
-      "server_port": 44303,
+      "server_port": 36303,
       "password": "1410466f-26da-472a-b47f-518ea4756673",
       "tls": {
         "enabled": true,
