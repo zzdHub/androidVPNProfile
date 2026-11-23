@@ -8,7 +8,7 @@
       {
         "type": "udp",
         "tag": "Local-DNS",
-        "server": "114.114.114.114"
+        "server": "223.5.5.5"
       },
      {
         "tag": "Remote-DNS",
